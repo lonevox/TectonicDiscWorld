@@ -1,0 +1,49 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "tectonicdiscworld"
+version = "${version}"
+displayName = "TectonicDiskWorld"
+authors = "lonevox"
+description = '''
+Limits your Tectonic world to a configurable circle.
+'''
+#logoFile = ""
+
+[[dependencies.tectonicdiscworld]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tectonicdiscworld]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tectonicdiscworld]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tectonicdiscworld]]
+modId = "tectonic"
+mandatory = true
+versionRange = "[3.0.17,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tectonicdiscworld]]
+modId = "moredensityfunctions"
+mandatory = true
+versionRange = "[1.0.6,)"
+ordering = "AFTER"
+side = "BOTH"
